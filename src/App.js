@@ -68,7 +68,7 @@ function App() {
         <div>
           <button onClick={handleGoogleSignIn}>google sign in</button>
           <button onClick={handleGithubSignIn}>Github signin</button>
-          <button onClick={handleFacebookSignIn}>Facebook Sign in</button>
+          <button onClick={handleFacebookSignIn}>Facebook login</button>
         </div> :
         <button onClick={handleSignOut}>Sign Out</button>
 
